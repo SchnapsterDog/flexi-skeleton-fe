@@ -13,7 +13,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
-    "@schnapsterdog/flexi-vue": "^0.2.6",
+    "@schnapsterdog/flexi-vue": "^0.2.8",
     "core-js": "^3.4.4",
     "epic-spinners": "^1.1.0",
     "v-tooltip": "^2.0.3",
