@@ -1,0 +1,22 @@
+//  Load external css framework here 
+
+//  @import 'node_modules/bootstrap/scss/bootstrap';
+//  @import 'node_modules/bootstrap-vue/src/index.scss';
+
+@import '~@schnapsterdog/flexi-vue/src/assets/scss/application.scss';
+
+
+@import './parts/colors';
+@import './parts/fonts';
+@import './parts/variables';
+@import './parts/buttons';
+@import './parts/images';
+@import './parts/layout';
+@import './parts/footer';
+@import './parts/header';
+@import './parts/generic';
+@import './parts/topcard';
+@import './parts/lastcard';
+@import './parts/navigation';
+@import './parts/section';
+@import './parts/sidebar';

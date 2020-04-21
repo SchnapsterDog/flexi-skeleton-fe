@@ -1,0 +1,260 @@
+{
+    "logoPath": "assets/img/logo_transparent_cut.png",
+    "topCard": {
+        "id": "top-card",
+        "email": "",
+        "title": "Lorem Ipsum",
+        "subTitle": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.",
+        "buttonText": "Learn More",
+        "social": null
+    },
+    "lastCard": {
+        "title": "Are you ready to be part of the solution?",
+        "subTitle": "You can make a difference It was popularised in the 1960s with the release of Letraset sheets containing in the 1960s with the release of Letraset sheets containing.",
+        "social": null,
+        "buttonText": "Learn More"
+    },
+    "footer": {
+        "social": [
+            {
+                "class": "ion-logo-facebook",
+                "href": "/"
+            },
+            {
+                "class": "ion-logo-twitter",
+                "href": "/"
+            },
+            {
+                "class": "ion-logo-linkedin",
+                "href": "/"
+            },
+            {
+                "class": "ion-logo-instagram",
+                "href": "/"
+            }
+        ],
+        "links": [
+            {
+                "name": "Privacy Policy",
+                "href": "/privacy-policy"
+            },
+            {
+                "name": "Terms & Conditions",
+                "href": "/terms-conditions"
+            }
+        ]
+    },
+    "navigationSections": [
+        {
+            "id": "1",
+            "name": "About",
+            "href": "#about"
+        },
+        {
+            "id": "2",
+            "name": "Tool",
+            "href": "#content-tool"
+        },
+        {
+            "id": "3",
+            "name": "Writing",
+            "href": "#writing"
+        },
+        {
+            "id": "4",
+            "name": "Services",
+            "href": "#services"
+        },
+        {
+            "id": "5",
+            "name": "FAQ",
+            "href": "#faq"
+        }
+    ],
+    "navigationPages": [
+        {
+            "id": "1",
+            "name": "About",
+            "href": "/about"
+        },
+        {
+            "id": "2",
+            "name": "News",
+            "href": "/news"
+        }
+    ],
+    "about": {
+        "id": "about",
+        "title": "Content Fiction",
+        "contentTitle": "Content Fiction",
+        "content": "Quality Content Helps You Generate Backlinks - One of the best SEO strategies is to gain high-quality backlinks from high-authority websites. ... It also involves creating a website that has a good structure that users can navigate easily, optimizing your robots. txt files, and writing good meta tags.",
+        "widgets": null,
+        "contentLine": null,
+        "buttonText": "Learn More",
+        "buttonLink": "/about"
+    },
+    "writing": {
+        "id": "writing",
+        "title": "Writing",
+        "contentTitle": "Writing Content",
+        "content": "The ultimate goal of everything we do is getting your website on the first page of Google for as many relevant keywords as possible. We'll unearth the questions people are asking Google using a variety of analysis tools we have available to us. We then narrow the list down based on how difficult it will be to rank for each keyword. Each search term we identify as having enough monthly search volume for it to be economical to target formulates the foundation of one article. That article will become the definite answer to the searcher’s question. Our writers extensively research the topics they are given to produce articles that are not only optimised for search engines but engage, excite and answer people’s questions. ",
+        "widgets": null,
+        "contentLine": null,
+        "buttonText": "Learn More",
+        "buttonLink": "/content-writing"
+    },
+    "services": {
+        "id": "services",
+        "title": "Services",
+        "contentTitle": "Services",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": null,
+        "buttonText": "Hire Us",
+        "buttonLink": "/services",
+        "cards": [
+            {
+                "icon": "ion-ios-create",
+                "title": "Content Writing",
+                "subTitle": "Bring to the table win-win survstrategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved."
+            },
+            {
+                "icon": "ion-ios-pulse",
+                "title": "Sentiment Analyze",
+                "subTitle": "Bring to the table win-win survstrategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved."
+            },
+            {
+                "icon": "ion-ios-albums",
+                "title": "SEO Report",
+                "subTitle": "Bring to the table win-win survstrategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved."
+            }
+        ]
+    },
+    "faq": {
+        "id": "faq",
+        "title": "FAQ",
+        "contentTitle": "Frequently Asked Questions",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": null,
+        "buttonText": "Learn More",
+        "buttonLink": "/faq"
+    },
+    "contact": {
+        "id": "contact",
+        "title": "Contact",
+        "contentTitle": "Contact",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": null,
+        "buttonText": "Contact Us",
+        "buttonLink": "/contact",
+        "cards": [
+            {
+                "icon": "ion-ios-globe",
+                "title": "Address",
+                "subTitle": ""
+            },
+            {
+                "icon": "ion-ios-mail",
+                "title": "Email",
+                "subTitle": "contact@contentfiction.com"
+            },
+            {
+                "icon": "ion-ios-call",
+                "title": "Phone",
+                "subTitle": "+123456789"
+            }
+        ]
+    },
+    "aboutPage": {
+        "id": "about-page",
+        "title": "About",
+        "contentTitle": "About",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Learn More",
+        "buttonLink": "/about"
+    },
+    "contactPage": {
+        "id": "contact-page",
+        "title": "Contact",
+        "contentTitle": "Contact",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Learn More",
+        "buttonLink": "/about"
+    },
+    "contentToolPage": {
+        "id": "content-tool-page",
+        "title": "Content Tool",
+        "contentTitle": "Content Tool",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Subscribe",
+        "buttonLink": "/subscribe"
+    },
+    "writingPage": {
+        "id": "writing-page",
+        "title": "Writing",
+        "contentTitle": "Writing Content",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Learn More",
+        "buttonLink": "/content-writing"
+    },
+    "servicesPage": {
+        "id": "services-page",
+        "title": "Services",
+        "contentTitle": "Services",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Hire Us",
+        "buttonLink": "/services"
+    },
+    "faqPage": {
+        "id": "faq-page",
+        "title": "FAQ",
+        "contentTitle": "Frequently Asked Questions",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Learn More",
+        "buttonLink": "/faq"
+    },
+    "newsPage": {
+        "id": "news-page",
+        "title": "News",
+        "contentTitle": "News",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "/",
+        "buttonLink": "/faq"
+    },
+    "policyPage": {
+        "id": "policy-page",
+        "title": "Privay Policy",
+        "contentTitle": "Contact",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Learn More",
+        "buttonLink": "/faq"
+    },
+    "termsPage": {
+        "id": "terms-page",
+        "title": "Terms & Conditions",
+        "contentTitle": "Terms and Conditions",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
+        "widgets": null,
+        "contentLine": "Content Fiction",
+        "buttonText": "Learn More",
+        "buttonLink": "/faq"
+    }
+}

@@ -1,0 +1,19 @@
+$top-card-default: "https://via.placeholder.com/1300x700";
+$top-card-news: "https://via.placeholder.com/1300x700";
+
+// generic pages top card picture - load from images.scss
+.generic-page {
+  .section {
+    &__title {
+      background: url($top-card-default);
+    }
+  }
+  
+  .news {
+    .section {
+      &__title {
+        background: url($top-card-news);
+      }
+    }
+  }
+}
