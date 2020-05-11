@@ -44,11 +44,11 @@
       </template>
     </flexi-section>
 
-    <flexi-section :inputData="inputData.writing">
+    <flexi-section :inputData="inputData.section_2">
       <template v-slot:content>
         <div class="section__content--wrapper">
-          <h1 class="section__content--title">{{ inputData.writing.contentTitle }}</h1>
-          <h2 class="section__content--subtitle">{{ inputData.writing.content}}</h2>
+          <h1 class="section__content--title">{{ inputData.section_2.contentTitle }}</h1>
+          <h2 class="section__content--subtitle">{{ inputData.section_2.content}}</h2>
         </div>
       </template>
       <template v-slot:button>
@@ -56,14 +56,14 @@
       </template>
     </flexi-section>
 
-    <flexi-section :inputData="inputData.services" v-show="inputData.services.cards">
+    <flexi-section :inputData="inputData.section_3" v-show="inputData.section_3.cards">
       <template v-slot:content>
-        <flexi-card v-for="(value, key) in inputData.services.cards" :key="key" :inputData="value" />
+        <flexi-card v-for="(value, key) in inputData.section_3.cards" :key="key" :inputData="value" />
       </template>
       <template v-slot:button>
         <flexi-button
-          @button-clicked="sendEmail(inputData.services.buttonLink)"
-          :text="inputData.services.buttonText"
+          @button-clicked="sendEmail(inputData.section_3.buttonLink)"
+          :text="inputData.section_3.buttonText"
         />
       </template>
     </flexi-section>
@@ -151,7 +151,7 @@ export default {
 
 <style lang="scss">
 
-#writing {
+#section-2 {
   .section {
     &__title {
       background: url("https://via.placeholder.com/1300x700");
@@ -159,7 +159,7 @@ export default {
   }
 }
 
-#services {
+#section-3 {
   .section {
     &__title {
       //background: url("~@/assets/img/content-tool.jpg");

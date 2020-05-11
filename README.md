@@ -1,30 +1,21 @@
-# Flexi CV - Vue Js Landing Page with pure custom CSS
+# Flexi Skeleton FE
 
-Vue applicaiton (Landing Page) that have the following features: A menu with at least the following items:
-
-- About
-- CV (Resume)
-- Projects: Items have a submenu with at least two project pages
-- Contact
+Skeleton of Vue applications (Landing Pages) made by Schnapsterdog. 
+(
+  Content Fiction,
+  Liliput,
+  Akrinum,
+  United Along The Lake
+)
 
 ## Demo
 
-Live Demo is uploaded on my server. Check this out:
-
-https://olivertrajceski.com
-
-## Requirements
-
-- App pull data from a API Data Source -- either static file (i.e. JSON Placeholder) or a API Data source (See Configration section below)
-- App render the data and bind into Vue Components
-- App contains various Custom Reusable Vue Components like TopCard, Navigation, Widgets, Section, Footer, ScrollLink
-- App contains separate optimizied scss files. Design was made with flexbox using BEM Methodology
-- App is Mobile Friendly and completely Responsive. Media Mixin File are responsible for it. It works pretty well on Chrome, Mozila, Edge, Firefox, Internet Explorer, Safari and Samsung Galaxy S5, Iphone 6-7-8-9-X, Pixel, Nexus, LG as well. 
-- App use Vuex Store. Files are separated in order to have clean and readable code
+Live Demo is uploaded here:
+https://flexivue.org
 
 ## Project setup
 
-- git clone https://github.com/SchnapsterDog/flexi-cv.git
+- git clone https://github.com/SchnapsterDog/flexi-skeleton-fe.git
 - npm install (install app localy)
 - npm run serve (compiles and hot-reloads for developmenet)
 - npm run build (compiles and minified for production environment)
@@ -32,11 +23,98 @@ https://olivertrajceski.com
 - npm run test:unit (test the units)
 - npm run lint (lints and fixed files)
 
-### Configuration:
+## Configuration:
 
 Inside .env file set VUE_APP_API_CLIENT to ‘local’ in order to fetch local data from json file. (Default)
 
 Dont modify vue.config.json file. In this place we are giving application a permission to make a real or fake api call (Fetch data from static json file stored in src/static/data/items.json)
+
+# Description
+
+- App could have as much pages as we need. See inside src/router how we create the routes.
+- App pull data from a API Data Source -- either static file (i.e. JSON Placeholder) or a API Data source (See Configration section below)
+- App render the data and bind into Vue Components
+- Integrated FlexiVue Framework with all skeleton components divided in atoms, moleculs and organism. For more information about framework see documentation: https://github.com/SchnapsterDog/framework-flexivue
+- Integrated scss for FlexiVue Framework. App contains separate optimizied scss files that could be start point for modifing components.
+- Integrated Ion-icons for daily basis use and Font-awesome for special cases like Editor
+- Integrated Epic-spinners
+- Integrated V-Tooltip Directive
+- App is mobile friendly and responsive. FlexiVue Framework has Media Mixin scss File which is responsible for it. Usage explained in this section :  
+- App looks well on mostly used browsers like Chrome, Edge, Firefox and Safari.
+- App use Vuex Store. Files are separated in different files.
+
+## Integrated FlexiVue Framework with all skeleton components divided in atoms, moleculs and organism.
+We dont need to register FlexiVue components separetely. They are already integrated with the skeleton. 
+We can simply use them:
+
+```html
+<flexi-topcard :inputData="inputData.topCard" v-if="inputData.topCard" />
+<flexi-nav :inputData="inputData.navigationSections" v-show="!isNavOpen" />
+```
+
+Or with slots:
+
+```html
+<flexi-section :inputData="inputData.services" v-show="inputData.services.cards">
+  <template v-slot:content>
+    <flexi-card v-for="(value, key) in inputData.services.cards" :key="key" :inputData="value" />
+  </template>
+  <template v-slot:button>
+    <flexi-button
+      @button-clicked="sendEmail(inputData.services.buttonLink)"
+      :text="inputData.services.buttonText"
+    />
+  </template>
+</flexi-section>
+```
+
+All components are reusable and could be modified with slots as much as possible. Some of the components have scoped slots and most of the buttons send events on click.
+
+```html
+<flexi-slider 
+  :inputData="inputData.services.cards">
+  <template v-slot:item="slotProps">
+    <span class="slider__item" v-html="slotProps.currentItem.content" />
+    <i class="icon" :class="slotProps.currentItem.class"></i>
+  </template>
+</flexi-slider>
+```
+
+## Integrated Ion-icons for daily basis use and Font-awesome for special cases like Editor
+Simple Usage:
+
+```html
+<i class="ion-ios-information-circle-outline"></i>
+```
+
+## Integrated Epic-spinners
+Usage of spinners are really easy. Everything we need is just to import and register them in animation/spinners/index.js file.
+
+```js
+import Vue from 'vue';
+import { FlowerSpinner } from "epic-spinners";
+
+Vue.component('flower-spinner', FlowerSpinner);
+```
+
+Than in Vue components we just need to call them properly: 
+```html
+<flower-spinner />
+```
+
+## Integrated V-Tooltip Directive
+V-tooltip directive could be attached on every html element. It shows on hover. 
+
+```html
+<sample-component v-tooltip="'Some good tooltip.'" />
+```
+
+Also it could be placed on different position: 
+```html
+<sample-component v-tooltip.bottom-center="'I am bottom centered.'"  />
+```
+
+
 
 ### Application Structure
 
