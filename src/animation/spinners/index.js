@@ -1,4 +1,9 @@
-import Vue from 'vue';
-import { FingerprintSpinner } from "epic-spinners";
+/*
+    If you want to use epic spinner components in the app, 
+    just import and register them properly as sample below.
+*/
 
-Vue.component('font-awesome-icon', FingerprintSpinner);
+import Vue from 'vue';
+import { FlowerSpinner } from "epic-spinners";
+
+Vue.component('flower-spinner', FlowerSpinner);
