@@ -4,4 +4,4 @@ import { VTooltip } from 'v-tooltip';
 //import './lowercase'
 
 //temporary @todo
-Vue.directive('my-tooltip', VTooltip);
+Vue.directive('tooltip', VTooltip);

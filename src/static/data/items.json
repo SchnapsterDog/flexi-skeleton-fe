@@ -10,7 +10,7 @@
     },
     "lastCard": {
         "title": "Are you ready to be part of the solution?",
-        "subTitle": "You can make a difference It was popularised in the 1960s with the release of Letraset sheets containing in the 1960s with the release of Letraset sheets containing.",
+        "subTitle": "You can make a difference with Lorem Ipsum. It was popularised in the 1960s with the release of Lorem Ipsum sheets containing in the 1960s with the release of Lorem Ipsum sheets containing.",
         "social": null,
         "buttonText": "Learn More"
     },
@@ -52,23 +52,23 @@
         },
         {
             "id": "2",
-            "name": "Tool",
-            "href": "#content-tool"
+            "name": "Section 2",
+            "href": "#section-2"
         },
         {
             "id": "3",
-            "name": "Writing",
-            "href": "#writing"
+            "name": "Section 3",
+            "href": "#section-3"
         },
         {
             "id": "4",
-            "name": "Services",
-            "href": "#services"
+            "name": "FAQ",
+            "href": "#faq"
         },
         {
             "id": "5",
-            "name": "FAQ",
-            "href": "#faq"
+            "name": "Contact",
+            "href": "#contact"
         }
     ],
     "navigationPages": [
@@ -85,28 +85,28 @@
     ],
     "about": {
         "id": "about",
-        "title": "Content Fiction",
-        "contentTitle": "Content Fiction",
-        "content": "Quality Content Helps You Generate Backlinks - One of the best SEO strategies is to gain high-quality backlinks from high-authority websites. ... It also involves creating a website that has a good structure that users can navigate easily, optimizing your robots. txt files, and writing good meta tags.",
+        "title": "Title",
+        "contentTitle": "Content Title",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesettinthe leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "widgets": null,
         "contentLine": null,
         "buttonText": "Learn More",
         "buttonLink": "/about"
     },
-    "writing": {
-        "id": "writing",
-        "title": "Writing",
-        "contentTitle": "Writing Content",
-        "content": "The ultimate goal of everything we do is getting your website on the first page of Google for as many relevant keywords as possible. We'll unearth the questions people are asking Google using a variety of analysis tools we have available to us. We then narrow the list down based on how difficult it will be to rank for each keyword. Each search term we identify as having enough monthly search volume for it to be economical to target formulates the foundation of one article. That article will become the definite answer to the searcher’s question. Our writers extensively research the topics they are given to produce articles that are not only optimised for search engines but engage, excite and answer people’s questions. ",
+    "section_2": {
+        "id": "section-2",
+        "title": "Section-2",
+        "contentTitle": "Content Title",
+        "content": "Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. Lorem Ipsum dolorem ipsum. ",
         "widgets": null,
         "contentLine": null,
         "buttonText": "Learn More",
-        "buttonLink": "/content-writing"
+        "buttonLink": "/about"
     },
-    "services": {
-        "id": "services",
-        "title": "Services",
-        "contentTitle": "Services",
+    "section_3": {
+        "id": "section-3",
+        "title": "Section-3",
+        "contentTitle": "Content Title",
         "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
         "widgets": null,
         "contentLine": null,
@@ -115,17 +115,17 @@
         "cards": [
             {
                 "icon": "ion-ios-create",
-                "title": "Content Writing",
+                "title": "Service One",
                 "subTitle": "Bring to the table win-win survstrategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved."
             },
             {
                 "icon": "ion-ios-pulse",
-                "title": "Sentiment Analyze",
+                "title": "Service Two",
                 "subTitle": "Bring to the table win-win survstrategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved."
             },
             {
                 "icon": "ion-ios-albums",
-                "title": "SEO Report",
+                "title": "Service Three",
                 "subTitle": "Bring to the table win-win survstrategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved."
             }
         ]
@@ -158,7 +158,7 @@
             {
                 "icon": "ion-ios-mail",
                 "title": "Email",
-                "subTitle": "contact@contentfiction.com"
+                "subTitle": "contact@flexivue.org"
             },
             {
                 "icon": "ion-ios-call",
