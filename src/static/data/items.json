@@ -93,7 +93,7 @@
         "buttonText": "Learn More",
         "buttonLink": "/about"
     },
-    "section_2": {
+    "section_sample": {
         "id": "section-2",
         "title": "Section-2",
         "contentTitle": "Content Title",
@@ -103,7 +103,7 @@
         "buttonText": "Learn More",
         "buttonLink": "/about"
     },
-    "section_3": {
+    "section_sample_b": {
         "id": "section-3",
         "title": "Section-3",
         "contentTitle": "Content Title",

@@ -14,7 +14,7 @@
       data-aos-anchor-placement="top-left"
     >
     </flexi-header>
-    <router-view />
+      <router-view />
     <flexi-footer :inputData="inputData.footer" />
   </div>
 </template>

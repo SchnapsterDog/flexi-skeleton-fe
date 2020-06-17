@@ -5,7 +5,7 @@
     <flexi-visible when-hidden="#top-card">
       <a @click.prevent="scroll('#top-card')">
         <div class="arrow-down">
-          <span class="text">Go to top</span>
+          <span class="text" v-text="'Go to top'"></span>
           <div class="svg"></div>
         </div>
       </a>
@@ -44,26 +44,29 @@
       </template>
     </flexi-section>
 
-    <flexi-section :inputData="inputData.section_2">
+    <flexi-section :inputData="inputData.section_sample">
       <template v-slot:content>
         <div class="section__content--wrapper">
-          <h1 class="section__content--title">{{ inputData.section_2.contentTitle }}</h1>
-          <h2 class="section__content--subtitle">{{ inputData.section_2.content}}</h2>
+          <h1 class="section__content--title">{{ inputData.section_sample.contentTitle }}</h1>
+          <h2 class="section__content--subtitle">{{ inputData.section_sample.content}}</h2>
         </div>
       </template>
       <template v-slot:button>
-        <flexi-button :text="inputData.about.buttonText" />
+        <flexi-button :text="inputData.section_sample.buttonText" />
       </template>
     </flexi-section>
 
-    <flexi-section :inputData="inputData.section_3" v-show="inputData.section_3.cards">
+    <flexi-section
+      :inputData="inputData.section_sample_b"
+      v-show="inputData.section_sample_b.cards"
+    >
       <template v-slot:content>
-        <flexi-card v-for="(value, key) in inputData.section_3.cards" :key="key" :inputData="value" />
+        <flexi-card v-for="(value, key) in inputData.section_sample_b.cards" :key="key" :inputData="value" />
       </template>
       <template v-slot:button>
         <flexi-button
-          @button-clicked="sendEmail(inputData.section_3.buttonLink)"
-          :text="inputData.section_3.buttonText"
+          @button-clicked="sendEmail(inputData.section_sample_b.buttonLink)"
+          :text="inputData.section_sample_b.buttonText"
         />
       </template>
     </flexi-section>

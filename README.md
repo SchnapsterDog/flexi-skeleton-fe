@@ -54,7 +54,7 @@ Full configured Vue SPA Skeleton made by [me](https://olivertrajceski.com)
 - Created json data which renders together with the vue components.
 - Created services folder. 
 - Created axios request that fetch data from local .json file
-- Integrated scss for FlexiVue framework.👉App contains separate optimizied scss files that could be start point for modifing components.
+- Integrated scss from FlexiVue framework.👉App contains separate optimizied scss files that could be start point for modifing components.
 - Integrated media mixins
 - Integrated AOS
 - Integrated Ion-icons 
@@ -102,15 +102,35 @@ All components are reusable and could be modified with slots as much as possible
 </flexi-slider>
 ```
 
-### Integrated Ion-icons and Font-awesome 
-Simple Usage:
+### Integrated Font-awesome Icons
+Add/Remove Icons into icons/index.js and than easy use them into components.
+
+```js
+import Vue from 'vue';
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+import {
+    faSpinner
+    // here you can import font awesome component
+} from '@fortawesome/free-solid-svg-icons'
+
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(
+    faSpinner
+    // add FA icons into library
+);
+```
+
+Than into components:
 
 ```html
-<i class="ion-ios-information-circle-outline"></i>
+<font-awesome-icon icon="bold" size="2x" />
 ```
 
 ### Integrated Epic-spinners
-Use of spinners are really easy. Everything we need is just to import and register spinner components inside animation/spinners/index.js file.
+Usage of modern and minimalistic spinners throught the components are really easy. Everything that need is just to import and register them inside animation/spinners/index.js file.
+See more at: 👉 https://github.com/epicmaxco/epic-spinners
 
 ```js
 import Vue from 'vue';
@@ -125,13 +145,13 @@ Than in Vue components we just need to call them properly:
 ```
 
 ### Integrated V-Tooltip Directive
-V-tooltip directive could be attached on every html element. It shows on hover. 
+V-tooltip directive could be attached on every html element. It will show on hover. 
 
 ```html
 <sample-component v-tooltip="'Some good tooltip.'" />
 ```
 
-Also it could be placed on different position: 
+Position and place:
 ```html
 <sample-component v-tooltip.bottom-center="'I am bottom centered.'"  />
 ```
