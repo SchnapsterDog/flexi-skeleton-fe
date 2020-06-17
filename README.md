@@ -1,19 +1,35 @@
-# Flexi Skeleton FE
+[![Flexi Skeleton FE - Scaffolded Vue for building powerful SPA's ]](https://flexivue.org)
 
-Skeleton of Vue applications (Landing Pages) made by Schnapsterdog. 
-(
-  Content Fiction,
-  Liliput,
-  Akrinum,
-  United Along The Lake
-)
+## :exclamation::exclamation::exclamation: This is README for FlexiVue Skeleton :exclamation::exclamation::exclamation:
 
-## Demo
+Full configured Vue SPA Skeleton made by [me](https://olivertrajceski.com)
 
-Live Demo is uploaded here:
-https://flexivue.org
+## ❔ Why to use Flexi Skeleton FE
 
-## Project setup
+- 👉 Good start point for developing powerful app with modern and responsive design. 
+- 👉 Everything set up and configured to work on dev and prod server.
+- 👉 Dedicated folders for components, directives, mixins, animation, services, vuex store ...
+- 👉 Media Mixins - The easiest way to create both, desktop and mobile version of the app, in the same time.
+- 👉 Integrated bunch of reusable components from my framework named flexivue.
+- 👉 Created sample of API call that fetch data as .json and render it together with the Vue.js components
+- 👉 Simple way of using Animations, Spinners, Tooltips, Icons, Parallax ...
+- 👉 Predifined Template
+
+---
+### 🚀 [Live Demo](https://flexivue.org)
+
+### 🌟 Checkout my sites:
+- [SEO APP created in Laravel & Vue.js](https://theflexiseo.com)
+- [Content Tool created in Vue.js](https://contentfiction.com)
+- [More Information](https://olivertrajceski.com)
+
+👉 To get a better understanding how this actually works, I encourage you to check the whole description below.
+
+---
+
+## ⚙ Installation
+
+### Project setup
 
 - git clone https://github.com/SchnapsterDog/flexi-skeleton-fe.git
 - npm install (install app localy)
@@ -23,27 +39,33 @@ https://flexivue.org
 - npm run test:unit (test the units)
 - npm run lint (lints and fixed files)
 
-## Configuration:
+### Configuration:
 
-Inside .env file set VUE_APP_API_CLIENT to ‘local’ in order to fetch local data from json file. (Default)
+👉 Create .env file. Inside set up the VUE_APP_API_CLIENT to ‘local’ in order to fetch data from json file stored in data folder. (Default)
 
-Dont modify vue.config.json file. In this place we are giving application a permission to make a real or fake api call (Fetch data from static json file stored in src/static/data/items.json)
+👉 Dont modify vue.config.json
 
-# Description
+---
 
-- App could have as much pages as we need. See inside src/router how we create the routes.
-- App pull data from a API Data Source -- either static file (i.e. JSON Placeholder) or a API Data source (See Configration section below)
-- App render the data and bind into Vue Components
-- Integrated FlexiVue Framework with all skeleton components divided in atoms, moleculs and organism. For more information about framework see documentation: https://github.com/SchnapsterDog/framework-flexivue
-- Integrated scss for FlexiVue Framework. App contains separate optimizied scss files that could be start point for modifing components.
-- Integrated Ion-icons for daily basis use and Font-awesome for special cases like Editor
+## Description
+- Integrated Vue Router. App could have as much pages as we need. 👉 See inside src/router how we create the routes.
+- Integrated Vuex Store with dedicated files
+- Integrated FlexiVue framework with all components divided in atoms, moleculs and organism. 👉 For more information about framework see documentation: https://github.com/SchnapsterDog/framework-flexivue
+- Created json data which renders together with the vue components.
+- Created services folder. 
+- Created axios request that fetch data from local .json file
+- Integrated scss for FlexiVue framework.👉App contains separate optimizied scss files that could be start point for modifing components.
+- Integrated media mixins
+- Integrated AOS
+- Integrated Ion-icons 
 - Integrated Epic-spinners
 - Integrated V-Tooltip Directive
-- App is mobile friendly and responsive. FlexiVue Framework has Media Mixin scss File which is responsible for it. Usage explained in this section :  
-- App looks well on mostly used browsers like Chrome, Edge, Firefox and Safari.
-- App use Vuex Store. Files are separated in different files.
 
-## Integrated FlexiVue Framework with all skeleton components divided in atoms, moleculs and organism.
+👉  App looks well on mostly used browsers like Chrome, Edge, Firefox and Safari.
+
+## 🤔 How to use it?
+
+### Integrated FlexiVue Framework with all skeleton components divided in atoms, moleculs and organism.
 We dont need to register FlexiVue components separetely. They are already integrated with the skeleton. 
 We can simply use them:
 
@@ -80,15 +102,15 @@ All components are reusable and could be modified with slots as much as possible
 </flexi-slider>
 ```
 
-## Integrated Ion-icons for daily basis use and Font-awesome for special cases like Editor
+### Integrated Ion-icons and Font-awesome 
 Simple Usage:
 
 ```html
 <i class="ion-ios-information-circle-outline"></i>
 ```
 
-## Integrated Epic-spinners
-Usage of spinners are really easy. Everything we need is just to import and register them in animation/spinners/index.js file.
+### Integrated Epic-spinners
+Use of spinners are really easy. Everything we need is just to import and register spinner components inside animation/spinners/index.js file.
 
 ```js
 import Vue from 'vue';
@@ -102,7 +124,7 @@ Than in Vue components we just need to call them properly:
 <flower-spinner />
 ```
 
-## Integrated V-Tooltip Directive
+### Integrated V-Tooltip Directive
 V-tooltip directive could be attached on every html element. It shows on hover. 
 
 ```html
@@ -114,9 +136,7 @@ Also it could be placed on different position:
 <sample-component v-tooltip.bottom-center="'I am bottom centered.'"  />
 ```
 
-
-
-### Application Structure
+## Application Structure
 
 ```
 src
@@ -142,16 +162,7 @@ src
 |
 ├── components
 │   └── reusable
-|           ├── FlexiButton.vue
-│           ├── FlexiCard.vue
-│           ├── FlexiContentLine.vue
-|           ├── FlexiFooter.vue
-|           ├── FlexiNav.vue
-│           ├── FlexiScrollLink.vue
-|           ├── FlexiSection.vue
-|           ├── FlexiTimeline.vue
-|           ├── FlexiTopcard.vue
-|           └── FlexiWidget.vue
+|           └── SampleComponent.vue
 |
 ├── router
 |   └── index.js
