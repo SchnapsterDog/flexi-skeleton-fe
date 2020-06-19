@@ -28,6 +28,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~@schnapsterdog/flexi-vue/src/assets/scss/parts/_variables';
+@import '~@schnapsterdog/flexi-vue/src/assets/scss/parts/_media-mixins';
+
 .generic-page {
   .section {
     &__content {

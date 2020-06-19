@@ -153,6 +153,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~@schnapsterdog/flexi-vue/src/assets/scss/parts/_variables';
+@import '~@schnapsterdog/flexi-vue/src/assets/scss/parts/_media-mixins';
 
 #section-2 {
   .section {
